@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-f"number = 98
-f"number, {98}.{Battery street} "\"
+number = 98
+print(f"number,{98}.{Battery street} "\")
