@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # Author Maryjane
-for i in range(97, 123):
-    if i == 101 and i == 113:
-        continue
-    print("{}".format(chr(i)), end="")
+for char in range(97, 123):
+    if char not in (113, 101):
+        print("{}".format(chr(char)), end='')
